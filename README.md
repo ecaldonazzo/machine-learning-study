@@ -4,7 +4,7 @@ Este repositório reúne projetos de estudo em **Machine Learning** e **IA**, de
 
 ## Projetos
 
-### Projeto: Treinamento de Modelo Iris
+### 1. Treinamento de Modelo Iris
 - **Objetivo**: Treinar e avaliar um modelo KNN usando o dataset Iris.
 - **Arquitetura**:
   - `src/data_handler` → carregamento de dados
@@ -17,8 +17,6 @@ Este repositório reúne projetos de estudo em **Machine Learning** e **IA**, de
   - Relatório de métricas no console
   - Matriz de confusão salva em `report/iris_confusion.png`
   - Modelo persistido em `models/knn_iris.pkl`
-
----
 
 ## Tecnologias
 - Python 3.14
