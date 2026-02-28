@@ -2,18 +2,25 @@
 
 Este repositório reúne projetos de estudo em **Machine Learning** e **IA**, desenvolvidos para praticar conceitos de modelagem, avaliação e visualização de dados.
 
-## Arquitetura
+## Projetos
 
-Os projetos seguem uma arquitetura modular organizada em camadas dentro do diretório `src`:
+### Projeto: Treinamento de Modelo Iris
+- **Objetivo**: Treinar e avaliar um modelo KNN usando o dataset Iris.
+- **Arquitetura**:
+  - `src/data_handler` → carregamento de dados
+  - `src/model_trainer` → treinamento do modelo
+  - `src/evaluator` → métricas de desempenho
+  - `src/visualizer` → visualização da matriz de confusão
+  - `src/projects` → orquestrador (`IrisProject`)
+  - `IrisTrainerMain.py` → entrypoint do projeto
+- **Saídas**:
+  - Relatório de métricas no console
+  - Matriz de confusão salva em `report/iris_confusion.png`
+  - Modelo persistido em `models/knn_iris.pkl`
 
-- **data_handler** → carregamento de dados (ex.: `SimpleDatasetLoader`)
-- **model_trainer** → treinamento de modelos (ex.: `KnnTrainer`)
-- **evaluator** → avaliação de desempenho (acurácia, relatório, matriz de confusão)
-- **visualizer** → visualização de resultados (heatmap da matriz de confusão)
-- **projects** → orquestrador que integra todas as etapas (ex.: `IrisProject`)
-- **Main** → arquivo principal que dispara o fluxo (ex.: `IrisTrainerMain.py`)
+---
 
-## Tecnologias utilizadas
+## Tecnologias
 - Python 3.14
 - scikit-learn, pandas, numpy
 - matplotlib, seaborn
