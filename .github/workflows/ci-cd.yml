@@ -2,9 +2,9 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
@@ -30,4 +30,4 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ml-project .
+          docker build -t ml-python .
