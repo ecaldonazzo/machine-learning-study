@@ -17,8 +17,7 @@ class IrisVisualizer:
         plt.ylabel("Real")
 
         if save_path:
-            # garante que o diretório existe antes de salvar
-            os.makedirs(os.path.dirname(save_path), exist_ok=True)
+            os.makedirs(os.path.dirname(os.path.abspath(save_path)), exist_ok=True)
             plt.savefig(save_path)
 
         plt.show()

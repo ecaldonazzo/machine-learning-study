@@ -6,8 +6,8 @@ services:
     volumes:
       - C:/Users/esdra/PycharmProjects/PythonProject/src:/opt/project/PythonProjects/src
       - C:/Users/esdra/PycharmProjects/PythonProject/IrisTrainerMain.py:/opt/project/PythonProjects/IrisTrainerMain.py
-      - report_data:/opt/project/PythonProjects/report
-      - models_data:/opt/project/PythonProjects/models
+      - report_data:/opt/project/report
+      - models_data:/opt/project/models
     tty: true
     stdin_open: true
 
