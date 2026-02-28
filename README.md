@@ -1,6 +1,6 @@
 # Projetos de Machine Learning
 
-Este repositório reúne projetos de estudo em **Machine Learning** e **IA**, desenvolvidos para praticar conceitos de modelagem, avaliação e visualização de dados.
+Este repositório reúne projetos de estudo em **Machine Learning**, desenvolvidos para praticar conceitos de modelagem, avaliação e visualização de dados.
 
 ## Projetos
 
