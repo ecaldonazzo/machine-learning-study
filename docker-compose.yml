@@ -1,0 +1,9 @@
+services:
+  python-ml:
+    build: .
+    container_name: python-ml
+    working_dir: /opt/project/PythonProjects
+    volumes:
+      - C:/Users/esdra/PycharmProjects/PythonProject:/opt/project/PythonProjects
+    tty: true
+    stdin_open: true
